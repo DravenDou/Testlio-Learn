@@ -1,0 +1,17 @@
+{
+  "name": "cypress-week-5-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.9.0",
+    "typescript": "^5.4.5"
+  }
+}
