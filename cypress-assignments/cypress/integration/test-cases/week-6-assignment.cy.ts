@@ -1,4 +1,4 @@
-import { should, use } from "chai";
+
 
 describe('Magento Store - E2E Test Scenario', () => {
     it('testing', () => {
