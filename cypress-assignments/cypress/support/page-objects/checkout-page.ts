@@ -34,7 +34,7 @@ export class CheckoutPage extends BasePage {
     }
 
     static placeOrderAndVerifySuccess(): void {
-        // Haz clic en el botón 'Realizar pedido'
+      
         cy.get('.action.primary.checkout', { timeout: 10000 }).click();
            
         cy.get('.checkout-success', { timeout: 10000 }).should('be.visible');
