@@ -1,11 +1,13 @@
 export const URLS = {
   TESTLIO: 'https://testlio.com',
+  MAGENTO_BASE_URL: 'https://magento.softwaretestingboard.com',
   
 };
 
 export const TEXTS = {
   TRUSTED_PARTNER: 'Your trusted partner in critical testing moments',
-  HEADER_TEXT: 'We power fused software testing to enable human possibilities.'
+  HEADER_TEXT: 'We power fused software testing to enable human possibilities.',
+  GEAR_TEXT: 'Gear',
 };
 
 export const IDS = {

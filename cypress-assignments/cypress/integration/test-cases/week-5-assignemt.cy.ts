@@ -7,13 +7,11 @@ describe('Test Case Automation', () => {
   const aboutPage = new AboutPage();
 
   it('Find h1 text on testlio.com', () => {
-    basePage.findTextAndPrint('h1', TEXTS.TRUSTED_PARTNER);
-  });
-
-  it('Find h1 text in about and learn more', () => {
-    aboutPage.visit(URLS.TESTLIO);
+    basePage.findTextAndPrint('h1', TEXTS.TRUSTED_PARTNER, URLS.TESTLIO);
     aboutPage.navigateToAbout();
     aboutPage.navigateToLearnMore();
     aboutPage.verifyHeaderText(IDS.HEADER_ID, TEXTS.HEADER_TEXT);
+
   });
+ 
 });
