@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run",
+    "testA": "npx cypress run --browser chrome --headed",
+    "open": "allure open"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +16,10 @@
     "typescript": "^5.4.5"
   },
   "devDependencies": {
-    "cypress": "^13.10.0"
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "allure-commandline": "^2.29.0",
+    "cypress": "^13.10.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "rimraf": "^5.0.7"
   }
 }

@@ -1,6 +1,6 @@
 import { BasePage } from './base-page';
 import { CommonMethods } from '../CommonMethods';
-import { MAGENTO_HOME_PAGE_LOCATORS } from '../../integration/locators/locators';
+import { MAGENTO_HOME_PAGE_LOCATORS } from '../../fixtures/locators/locators';
 
 export class HomePage extends CommonMethods {
     static validateHomePageElements(locators: string[]): void {

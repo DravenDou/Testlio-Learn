@@ -3,7 +3,7 @@ import { HomePage } from '../../support/page-objects/home-page';
 import { ProductPage } from '../../support/page-objects/product.page'; 
 import { CommonMethods } from '../../support/CommonMethods'; 
 import { URLS } from '../../fixtures/constants'; 
-import { MAGENTO_HOME_PAGE_LOCATORS, MAGENTO_PRODUCT_PAGE_LOCATORS } from '../locators/locators'; 
+import { MAGENTO_HOME_PAGE_LOCATORS, MAGENTO_PRODUCT_PAGE_LOCATORS } from '../../fixtures/locators/locators'; 
 import { CheckoutPage } from '../../support/page-objects/checkout-page';
 
 describe('Magento Store - E2E Test Scenario', () => {

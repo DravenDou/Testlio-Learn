@@ -1,5 +1,5 @@
 import { BasePage } from "./base-page";
-import { MAGENTO_PRODUCT_PAGE_LOCATORS } from "../../integration/locators/locators";
+import { MAGENTO_PRODUCT_PAGE_LOCATORS } from "../../fixtures/locators/locators";
 
 export class ProductPage extends BasePage { 
     

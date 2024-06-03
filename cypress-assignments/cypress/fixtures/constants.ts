@@ -5,7 +5,7 @@ export const URLS = {
 };
 
 export const TEXTS = {
-  TRUSTED_PARTNER: 'Your trusted partner in critical testing moments',
+  ELEVATE: 'Elevate your software quality. Unlock global growth.',
   HEADER_TEXT: 'We power fused software testing to enable human possibilities.',
   GEAR_TEXT: 'Gear',
 };
